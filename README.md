@@ -1,6 +1,7 @@
 # androidbackuptel
 
 ## Full backup & restaure with adb
+* https://www.moyens.net/android/comment-sauvegarder-vos-donnees-android-avec-adb-sur-ubuntu/
 ```
 apt install adb
 adb start-server
