@@ -1,5 +1,17 @@
 # androidbackuptel
 
+## Full backup & restaure with adb
+```
+apt install adb
+adb start-server
+
+# Backup
+adb backup -apk -shared -all -f backup-file.adb
+
+# Restore
+adb restore backup-file.abb
+```
+
 
 ## backup and restaure contact
 
